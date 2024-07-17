@@ -55,6 +55,8 @@ def get_gdp_data():
     # Convert years from string to integers
     gdp_df['Year'] = pd.to_numeric(gdp_df['Year'])
 
+    print('<h3>works!</h3)'); 
+
     return gdp_df
 
 gdp_df = get_gdp_data()
