@@ -126,7 +126,22 @@ last_year = gdp_df[gdp_df['Year'] == to_year]
 st.header(f'GDP in {to_year}', divider='gray')
 st.html('<h1 onmouseover=alert(1)>SASI</h1>')
 st.html('<button onclick="https://www.google.com">Try it</button>')
-print '''<h2>LEVI</h2>'''
+html_content = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My HTML Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a paragraph.</p>
+</body>
+</html>
+"""
+
+# Now you can use `html_content` as needed, for example, outputting to a file or sending as an email.
+print(html_content)  # or use it as needed in your application
+
 
 ''
 
