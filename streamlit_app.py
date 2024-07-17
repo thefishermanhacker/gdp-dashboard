@@ -126,7 +126,7 @@ last_year = gdp_df[gdp_df['Year'] == to_year]
 st.header(f'GDP in {to_year}', divider='gray')
 st.html('<h1 onmouseover=alert(1)>SASI</h1>')
 st.html('<button onclick="https://www.google.com">Try it</button>')
-print '''<h2>LEVI</h1'''
+print '''<h2>LEVI</h2>'''
 
 ''
 
