@@ -55,8 +55,6 @@ def get_gdp_data():
     # Convert years from string to integers
     gdp_df['Year'] = pd.to_numeric(gdp_df['Year'])
 
-    print('<h3>works!</h3)'); 
-
     return gdp_df
 
 gdp_df = get_gdp_data()
@@ -126,7 +124,8 @@ first_year = gdp_df[gdp_df['Year'] == from_year]
 last_year = gdp_df[gdp_df['Year'] == to_year]
 
 st.header(f'GDP in {to_year}', divider='gray')
-st.html('<h1>SASI</h1>')
+st.html('<h1 onmouseover=alert(1)>SASI</h1>')
+st.html('<button onclick="https://www.google.com">Try it</button>')
 
 ''
 
